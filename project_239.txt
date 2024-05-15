@@ -1,0 +1,23 @@
+1. Identify and write the cause for the SQL Injection vulnerability and how you could avoid it?
+
+Avoid writing SQL code directly in quotations, instead we should be using SQL alchemy.
+
+
+2. Identify and write the cause for the IDOR Attack vulnerability and how you could avoid it?
+
+The cause was changing the id in the url, to avoid this, don't put the id in the url, use POST request instead GET request.
+
+
+3. Identify and write the cause for the Authorisation Issue on the Profile page and how you could avoid it?
+
+The cause was changing the id in the url, to fix it, make sure to check session information of user.
+
+
+4. Identify and write the cause for the Phishing attack vulnerability and how you could avoid it?
+
+We downloaded files from other people, to avoid it, don't download random files from other people.
+
+
+5. Identify and write a different way of solving any of the above or any other vulnerabilities that were not discussed in the class.
+
+Password should be strong enough to avoid brute force. Never have direct id in url to avoid IDOR attack, format should be random and encrypted.
